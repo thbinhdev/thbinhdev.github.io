@@ -1,0 +1,26 @@
+:root{
+    --bg-color:#e0e0e0;
+    --bg-color-ld:#414141;
+    --scrollbar-color:#222;
+    --scrollbar-thumb-color:linear-gradient(-45deg,#796cf0,#e292ff);
+}
+html{background:var(--bg-color-ld);} /*cursor:url("/HTML/images/cursor.png"),auto;*/
+/* img,.fg:hover{cursor:url("/HTML/images/pointer.png"),auto;} */
+::selection{background:#4b9b41ab;color:#fff8b8;}
+::-webkit-scrollbar{width:8px}
+::-webkit-scrollbar-track{background:var(--scrollbar-color)}
+::-webkit-scrollbar-thumb{background:var(--scrollbar-thumb-color);border-radius:50px}
+#canvas1 {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+.avatar{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}

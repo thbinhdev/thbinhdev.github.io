@@ -1,0 +1,20 @@
+{
+    "short_name": "Technology, Blog",
+    "name": "Technology, Blog: This is a blog which shares everything about technology, programming, and much more. It is made by thbinhdev.",
+    "icons": [
+      {
+        "src": "../images/logo/logo_192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "../images/logo/logo_512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "theme_color": "#414141",
+    "description": "This is a blog which shares everything about technology, programming, and much more. It is made by thbinhdev."
+}
